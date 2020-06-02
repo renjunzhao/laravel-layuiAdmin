@@ -10,4 +10,6 @@ Route::namespace('System')
         Route::resource('menu','MenuController');
         //短信
         Route::resource('sms','SmsController');
+        //微信
+        Route::resource('wechat','WechatController');
     });

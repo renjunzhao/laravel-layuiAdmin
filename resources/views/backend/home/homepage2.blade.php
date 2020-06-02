@@ -20,9 +20,9 @@
                 <i class="layui-icon" face>&#xe62e;</i>
                 <div class="layui-text">
                     <h1>
-                        <span class="layui-anim layui-anim-loop layui-anim-rotate">大</span>
-                        <span class="layui-anim layui-anim-loop layui-anim-rotate">乐</span>
-                        <span class="layui-anim layui-anim-loop layui-anim-rotate">斗</span>
+                        <span class="layui-anim layui-anim-loop layui-anim-rotate"></span>
+                        <span class="layui-anim layui-anim-loop layui-anim-rotate"></span>
+                        <span class="layui-anim layui-anim-loop layui-anim-rotate"></span>
                     </h1>
                 </div>
             </div>

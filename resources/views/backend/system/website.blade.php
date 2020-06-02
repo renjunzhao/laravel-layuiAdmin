@@ -20,25 +20,59 @@
                 <div class="layui-card-body" pad15>
 
                     <div class="layui-form" wid100 lay-filter="">
-                        <div class="layui-form-item">
-                            <label class="layui-form-label">网站标题</label>
-                            <div class="layui-input-inline">
-                                <input type="text" name="title" lay-verify="required" placeholder="请输入标题" autocomplete="off"
-                                       class="layui-input" value="{{$setting->title}}">
-                            </div>
-                        </div>
-                        <div class="">
-                            <label class="layui-form-label">协议</label>
-                            <div class="layui-input-inline">
+                        <div class="layui-tab layui-tab-brief" lay-filter="component-tabs-hash">
+                            <ul class="layui-tab-title">
+                                <li lay-id="11" class="layui-this">
+                                    基本设置
+                                </li>
+                                <li lay-id="22">
+                                    QQ授权信息
+                                </li>
+                            </ul>
+                            <div class="layui-tab-content" style="height: 100%;">
+                                <div class="layui-tab-item layui-show">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">网站标题</label>
+                                        <div class="layui-input-inline">
+                                            <input type="text" name="title" lay-verify="required" placeholder="请输入标题" autocomplete="off"
+                                                   class="layui-input" value="{{$setting->title}}">
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <label class="layui-form-label">协议</label>
+                                        <div class="layui-input-inline">
             <textarea name="xieyi" lay-verify="content" autocomplete="off"
                       class="layui-textarea" id="xieyi">{{$setting->xieyi}}</textarea>
-                            </div>
-                        </div>
-                        <input type="hidden" name="token" id="token" value="{{$token}}">
-                        <input type="hidden" name="id" id="id" value="{{$setting->id}}">
-                        <div class="layui-form-item">
-                            <div class="layui-input-block">
-                                <button class="layui-btn" lay-submit lay-filter="set_website">确认保存</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layui-tab-item">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">APP_ID</label>
+                                        <div class="layui-input-inline">
+                                            <input type="text" name="qq[app_id]"
+                                                   value="{{$system->qq['app_id'] ?? ''}}" autocomplete="off"
+                                                   class="layui-input" style="width: 200%">
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">APP_SECRET</label>
+                                        <div class="layui-input-inline">
+                                            <input type="text" name="qq[secret]" value="{{$system->qq['secret'] ?? ''}}"
+                                                   autocomplete="off"
+                                                   class="layui-input" style="width: 200%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {{csrf_field()}}
+                                <input type="hidden" name="token" id="token" value="{{$token}}">
+                                <input type="hidden" name="id" id="id" value="{{$setting->id}}">
+                                <div class="layui-form-item">
+                                    <div class="layui-input-block">
+                                        <button class="layui-btn" lay-submit lay-filter="set_website">确认保存</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -50,6 +84,22 @@
 </div>
 
 <script src="{{url('src/layuiadmin/layui/layui.js')}}"></script>
+<script>
+    layui.config({
+        base: '../../../layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'form'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , router = layui.router()
+            , layer = layui.layer
+            , form = layui.form;
+
+    });
+
+</script>
 <script>
     layui.define(['form', 'upload', 'layedit'], function (exports) {
         var $ = layui.$

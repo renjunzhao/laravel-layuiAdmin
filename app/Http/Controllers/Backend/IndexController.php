@@ -52,6 +52,7 @@ class IndexController extends Controller
             $menus = Menu::query()->with('allChildrenCategory1')->find($v['id'])->toArray();
             $arr[] = $menus;
         }
+        //读取设置
         $setting = Setting::query()->first();
         return view('backend.index',compact('token','user','arr','setting'));
     }

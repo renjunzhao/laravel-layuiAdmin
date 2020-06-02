@@ -118,7 +118,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="layui-tab-item">
+                            <div class="layui-tab-item" >
                                 <div class="layui-form-item">
                                     <label class="layui-form-label">聚合KEY</label>
                                     <div class="layui-input-inline">

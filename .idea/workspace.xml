@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed4736f-415c-401f-9d02-f131ccec89e7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2ed4736f-415c-401f-9d02-f131ccec89e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Sms/SmsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Sms/SmsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/Article/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Article/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/System/SmsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/System/SmsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/System/SystemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/System/SystemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/AuthApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/AuthApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Article/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Article/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/System/Setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/System/Setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Interfaces/System/SmsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Interfaces/System/SmsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/System/SmsRepositoryEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/System/SmsRepositoryEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/System/SystemRepositoryEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/System/SystemRepositoryEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-layuiAdmin.sql" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-layuiAdmin.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-layuiAdmin.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/app/content/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/app/content/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/home/homepage2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/home/homepage2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/system/sms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/system/sms.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/system/website.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/system/website.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/user/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/user/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backend/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backend/system.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +38,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,18 +168,22 @@
   </component>
   <component name="ProjectId" id="1TdVhHgLWlbCAb7V41xTJguG7Sc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Validators/System" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/Backend/System" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\phpStudy\PHPTutorial\WWW\daledou\app\Validators\System" />
-      <recent name="D:\phpStudy\PHPTutorial\WWW\daledou\app\Models\System" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\daledou\app\Http\Controllers\Backend\System" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\daledou\resources\views\backend\system" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\daledou\app\Validators\System" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\daledou\app\Models\System" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\daledou\app\Repositories\Interfaces\System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -162,18 +192,6 @@
       <recent name="D:\phpStudy\PHPTutorial\WWW\demo\resources\views\backend\user\user" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\demo\app\Http\Controllers\Backend\Auth" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -199,24 +217,23 @@
       <workItem from="1574123546845" duration="29090000" />
       <workItem from="1574210168278" duration="4328000" />
       <workItem from="1575956351237" duration="5287000" />
-      <workItem from="1576026774083" duration="5085000" />
+      <workItem from="1576026774083" duration="8042000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

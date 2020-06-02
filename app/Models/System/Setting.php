@@ -23,6 +23,8 @@ class Setting extends Model implements Transformable
         'xieyi',
         'email',
         'title',
+        'wechat',
+        'qq',
     ];
 
 
@@ -33,5 +35,7 @@ class Setting extends Model implements Transformable
     protected $casts = [
         'sms' => 'array',
         'email' => 'array',
+        'wechat' => 'array',
+        'qq' => 'array',
     ];
 }
