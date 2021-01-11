@@ -66,10 +66,10 @@ return [
 
         'oss' => [
             'driver' => 'oss',
-            'access_id' => 'LTAIFQB7wIHz42KQ',
-            'access_key' => 'UUIXEhAeMWOwTHnSl98s2VALWBhnUa',
-            'bucket' => 'zhao-pan',
-            'endpoint' => 'oss-cn-hangzhou.aliyuncs.com',
+            'access_id' => '',
+            'access_key' => '',
+            'bucket' => '',
+            'endpoint' => '',
 //            'endpoint_internal' => '',
 //            'cdnDomain' => '', // 如果isCName为true, getUrl会判断cdnDomain是否设定来决定返回的url，如果cdnDomain未设置，则使用endpoint来生成url，否则使用cdn
             'isCName' => false,
